@@ -46,9 +46,9 @@ CACHES = {
 MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]
 INSTALLED_APPS += ['debug_toolbar', ]
 
-INTERNAL_IPS = ['127.0.0.1', '10.0.2.2', '192.168.43.142', '192.168.43.177']
+INTERNAL_IPS = ['127.0.0.1', '10.0.2.2', '192.168.43.142', '192.168.43.177', 'localhost']
 
-ALLOWED_HOSTS=['192.168.43.142']
+ALLOWED_HOSTS=['192.168.43.142', 'localhost', '192.168.1.142']
 
 DEBUG_TOOLBAR_CONFIG = {
     'DISABLE_PANELS': [
